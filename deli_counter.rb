@@ -8,5 +8,6 @@ def line(katz_deli)
     katz_deli.each_with_index do |element, index|
       string = string + "#{index}." + element
     end
+    return string
   end
 end
