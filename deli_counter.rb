@@ -7,6 +7,6 @@ def line(katz_deli)
     string = ""
     katz_deli.each_with_index do |element, index|
       string = string + "#{index}." + element
-
+    end
   end
 end
